@@ -11,6 +11,7 @@ export default function Projects() {
                 {projects.map((project) => (
                     <a 
                         href={project.link}
+                        target='_blank'
                         className="sm:w-1/2 w-100 p-4">
                         <div className="flex relative">
                             <h1 className="title-font text-lg font-medium text-white mb-3">
