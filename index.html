@@ -1,25 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="https://code.jquery.com/jquery.min.js"></script>
-    <title>Shen's Portfolio</title>
-    <header>
-        <h1 class="name">Yuan Shen Tay</h1>
-        <!--navigation bar-->
-        <div id="nav-bar"></div>
-        <script>
-            $(function() {
-                $("nav-bar").load("./nav.html")
-            })
-        </script>
-    </header>
+    <head>
+        <script src="https://kit.fontawesome.com/19e5251900.js" crossorigin="anonymous"></script>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="style.css"/>
+        <title>Shen's Portfolio</title>
+    </head>
+   
+    <body class="body">
+        <header>
+            <!--navigation bar-->
+            <div id="nav-placeholder"></div>
+            <script id="nav-placeholder" src="./nav.js"></script>
+        </header>
 
-    <body>
-        <div >
-            <div class="row">
-                <h2 class="hero_title">Hi, it's me Yuan Shen</h2>
-                <p class="hero_desc">I am a senior Computer Science student at University of Maryland</p>
+        <br/>
+
+        <div class="about">
+            <div class="about-child">
+                <img src="./images/image.jpg" style="height: 300px;"/>
+            </div>
+
+            <div class="about-child">
+                <h2 class="hero_title">About</h2>
+                <p class="hero_desc">
+                    Hello there, my name is Yuan Shen. I am currently a senior Computer Science student at University of Maryland. 
+                </p>
+                <p class="hero_desc">
+                    I am interested in career opportunities related to data science. I would also love to hear about software enginerring roles.
+                </p>
             </div>
         </div>
+
+        <br/>
+
+        <footer>
+            <div id="footer-placeholder"></div>
+            <script id="footer-placeholder" src="./footer.js"></script>
+        </footer>
+
     </body>
 
 </html>
