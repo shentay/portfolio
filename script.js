@@ -1,11 +1,22 @@
-// navbar
-// change active page
-let navbarItems = document.getElementsByClassName("navbar-parent")
-let items = navbarItems.getElementsByClassName("navbar-child")
-for (let i = 0; i < items.length - 1; i++) {
-    items[i].addEventListener("click", function()  {
-        let current = document.getElementsByClassName("active")
-        current[0].className = current[0].className.replace("-active", "")
-        this.className += "-active"
-    })
-}
+window.onload = function() {
+    // change active page
+    let fileName = location.pathname.split("/").slice(-1)[0]
+    let items = document.getElementsByClassName('navbar-inactive');
+    // set footer to be correct position
+    let footer = document.getElementsByClassName('footer');
+    switch (fileName) {
+        case 'index.html':
+            items[0].className = 'navbar-active';
+            console.log(footer)
+            footer[0].id = 'footer-about';
+            break
+        case 'skills.html':
+            items[1].className = 'navbar-active'
+            break
+        case 'projects.html':
+            items[2].className = 'navbar-active'
+            break
+        default:
+            break
+    }
+};
