@@ -4,11 +4,12 @@
         <script src="https://kit.fontawesome.com/19e5251900.js" crossorigin="anonymous"></script>
         <script src="./script.js"></script>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="w3.css"/>
         <title>Shen's Portfolio</title>
     </head>
    
     <body class="body">
-        <header>
+        <header class="w3-container w3-content">    
             <!--navigation bar-->
             <div id="nav-placeholder"></div>
             <script id="nav-placeholder" src="./nav.js"></script>
@@ -16,13 +17,37 @@
 
         <br/>
 
-        <div class="projects">
-            <h2>Projects</h2>
-        </div>
+        <div class="w3-container w3-content">
+            <div class="projects">
+                <div class="w3-card w3-center">
+                    <img src="./images/income.png" alt="income" style="height:300px; width: 350px"/>
+                    <h3>Analysis of Income in Maryland</h3>
+                    <p>
+                        In this project, I studied the income trends of all counties in Maryland from the year 2010 to 2019. There was an increase in income trends so, I used a linear model to identify if it has any affect on the poverty rates.
+                    </p>
 
+                    <p>
+                        Tools used: Jupyter, Python, pandas, scikit-learn, matplotlib, numpy, statsmodel
+                    </p>
+                    <button class="w3-button w3-blue" onclick="window.open('./projects/income.html', '_blank')">Check it out</button>
+                </div>
+                <div class="w3-card w3-center">
+                    <img src="./images/pexels-nataliya-vaitkevich-6942082.jpg" alt="income" style="height:300px; width: 350px"/>
+                    <h3>Analysis of Diabetes Measures</h3>
+                    <p>
+                        In this project, I studied the different diagnostic measures that could be used to identify if an individual has diabetes. I trained a linear model with the different measures and tested the model to see how well it could predict if a person has diabetes.  
+                    </p>
+                    <p>
+                        Tools used: R, RMySQL
+                    </p>
+                    <button class="w3-button w3-blue" onclick="window.open('./projects/diabetes.html', '_blank')">Check it out</button>
+                </div>
+            </div>
+        </div>
+        
         <br/>
 
-        <footer>
+        <footer class="w3-container w3-center">
             <div id="footer-placeholder"></div>
             <script id="footer-placeholder" src="./footer.js"></script>
         </footer>

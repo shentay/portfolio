@@ -1,4 +1,4 @@
-/* background color*/
+/* body */
 .body {
     font-family: Arial, Helvetica, sans-serif;
     padding: 60px;
@@ -11,13 +11,11 @@
 .body a {
     color: gray;
     text-decoration: none;
-}
+}   
 
 /* nav bar */
 .navbar-parent {
     margin: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 .navbar-parent a:hover {
@@ -25,20 +23,17 @@
 }
 
 .navbar-child {
-    float: left;
-    text-align: center;
+    float:left;
     width: 50%;
 }
 
 .name {
     font-size: 16pt;
-    margin: 10pt;
 }
 
 .navbar {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 10px;
     list-style-type: none;
     font-size: 14pt;
 }
@@ -49,14 +44,7 @@
 
 /* footer */
 .footer {
-    display: -ms-inline-grid;
-    text-align: center;
-    bottom: 0;
     list-style-type: none;
-}
-
-#footer-about {
-    padding-top: 300pt;
 }
 
 .footer li {
@@ -71,30 +59,37 @@
 
 /* about */
 .about {
-    margin:10%;
-}
-
-.about-child {
-    float: left;
-    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .about-image {
-    display: flex;
+    float: left;
     justify-content: center;
+}
+
+#shen {  
+    height: auto;
+    max-height: 300px;
+    float: right;
 }
 
 /* projects */
 .projects {
     margin: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 10pt;
 }
 
 /* skills */
 .skills {
     margin-top: 4%;
     margin-bottom: 4%;
-    margin-left: 30%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 40%;
 }
 
 .icons {

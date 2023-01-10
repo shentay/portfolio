@@ -4,11 +4,12 @@
         <script src="https://kit.fontawesome.com/19e5251900.js" crossorigin="anonymous"></script>
         <script src="./script.js"></script>
         <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="w3.css"/>
         <title>Shen's Portfolio</title>
     </head>
    
     <body class="body">
-        <header>
+        <header class="w3-container w3-content">    
             <!--navigation bar-->
             <div id="nav-placeholder"></div>
             <script id="nav-placeholder" src="./nav.js"></script>
@@ -16,27 +17,29 @@
 
         <br/>
 
-        <div class="about">
-            <div class="about-child">
-                <div class="about-image">
-                    <img src="./images/image.jpg" style="height: 300px;"/>
+        <div class="w3-container w3-content">
+            <div class="about">
+                <div class="about-child">
+                    <div class="about-image">
+                        <img src="./images/image.png" alt="Yuan Shen" id="shen"/>
+                    </div>
+                </div>
+    
+                <div class="about-child">
+                    <h2 class="hero_title">About</h2>
+                    <p class="hero_desc">
+                        Hello there, my name is Yuan Shen. I am currently a senior Computer Science student at University of Maryland. 
+                    </p>
+                    <p class="hero_desc">
+                        I am interested in career opportunities related to data science. I would also love to hear about software engineering roles.
+                    </p>
                 </div>
             </div>
-
-            <div class="about-child">
-                <h2 class="hero_title">About</h2>
-                <p class="hero_desc">
-                    Hello there, my name is Yuan Shen. I am currently a senior Computer Science student at University of Maryland. 
-                </p>
-                <p class="hero_desc">
-                    I am interested in career opportunities related to data science. I would also love to hear about software engineering roles.
-                </p>
-            </div>
         </div>
-
+        
         <br/>
 
-        <footer>
+        <footer class="w3-container w3-center">
             <div id="footer-placeholder"></div>
             <script id="footer-placeholder" src="./footer.js"></script>
         </footer>
