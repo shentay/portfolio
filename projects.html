@@ -2,17 +2,17 @@
 <html lang="en">
     <head>
         <script src="https://kit.fontawesome.com/19e5251900.js" crossorigin="anonymous"></script>
-        <script src="./script.js"></script>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="stylesheet" href="w3.css"/>
-        <title>Shen's Portfolio</title>
+        <script src="./scripts/script.js"></script>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <link rel="stylesheet" href="./css/w3.css"/>
+        <title>Projects - Yuan Shen Tay</title>
     </head>
    
     <body class="body">
         <header class="w3-container w3-content">    
             <!--navigation bar-->
             <div id="nav-placeholder"></div>
-            <script id="nav-placeholder" src="./nav.js"></script>
+            <script id="nav-placeholder" src="./scripts/nav.js"></script>
         </header>
 
         <br/>
@@ -20,27 +20,46 @@
         <div class="w3-container w3-content">
             <div class="projects">
                 <div class="w3-card w3-center">
-                    <img src="./images/income.png" alt="income" style="height:300px; width: 350px"/>
-                    <h3>Analysis of Income in Maryland</h3>
+                    <header>
+                        <img src="./images/income.png" alt="income" style="height:40%; width: 80%"/>
+                    </header>
+                    <div class="w3-content">
+                        <h3>Analysis of Income in Maryland</h3>
                     <p>
-                        In this project, I studied the income trends of all counties in Maryland from the year 2010 to 2019. There was an increase in income trends so, I used a linear model to identify if it has any affect on the poverty rates.
+                        Tools used: Python, Jupyter, pandas, numpy, statsmodel, matplotlib
                     </p>
-
-                    <p>
-                        Tools used: Jupyter, Python, pandas, scikit-learn, matplotlib, numpy, statsmodel
-                    </p>
-                    <button class="w3-button w3-blue" onclick="window.open('./projects/income.html', '_blank')">Check it out</button>
+                    </div>
+                    <footer>
+                        <button class="w3-button w3-blue" onclick="window.open('./income.html', '_blank')">Check it out</button>
+                    </footer>
                 </div>
                 <div class="w3-card w3-center">
-                    <img src="./images/pexels-nataliya-vaitkevich-6942082.jpg" alt="income" style="height:300px; width: 350px"/>
-                    <h3>Analysis of Diabetes Measures</h3>
-                    <p>
-                        In this project, I studied the different diagnostic measures that could be used to identify if an individual has diabetes. I trained a linear model with the different measures and tested the model to see how well it could predict if a person has diabetes.  
-                    </p>
-                    <p>
-                        Tools used: R, RMySQL
-                    </p>
-                    <button class="w3-button w3-blue" onclick="window.open('./projects/diabetes.html', '_blank')">Check it out</button>
+                    <header>
+                        <img src="./images/pexels-nataliya-vaitkevich-6942082.jpg" alt="diabetes" style="height:50%; width: 90%"/>
+                    </header>
+                    <div class="w3-content">
+                        <h3>Analysis of Diabetes Measures</h3>
+                        <p>
+                            Tools used: R, RMySQL
+                        </p>
+                    </div>
+                    <footer>
+                        <button class="w3-button w3-blue" onclick="window.open('./diabetes.html', '_blank')">Check it out</button>
+                    </footer>
+                </div>
+                <div class="w3-card w3-center">
+                    <header>
+                        <img src="./images/logo.png" alt="bgcalc" style="height:50%; width: 80%"/>
+                    </header>
+                    <w3-content>
+                        <h3>BG Calc</h3>
+                        <p>
+                            Tools used: Flutter, Android Studio
+                        </p>
+                    </w3-content>
+                    <footer>
+                        <button class="w3-button w3-blue" onclick="location.href='./bgcalc.html'">Check it out</button>
+                    </footer>
                 </div>
             </div>
         </div>
@@ -49,7 +68,7 @@
 
         <footer class="w3-container w3-center">
             <div id="footer-placeholder"></div>
-            <script id="footer-placeholder" src="./footer.js"></script>
+            <script id="footer-placeholder" src="./scripts/footer.js"></script>
         </footer>
 
     </body>
