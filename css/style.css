@@ -106,3 +106,17 @@
 .icons li {
     display: inline;
 }
+
+/* mobile version */
+@media only screen and (max-device-width: 480px) {
+    
+    .body {
+        font-size: 15pt;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .projects {
+        display: block;
+    }
+}
