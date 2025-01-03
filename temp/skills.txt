@@ -1,0 +1,81 @@
+Player Skills   Base Stat
+- Pace              4
+- Dribbling         3
+- Heading           3
+- High Pass         3
+- Resilience        3
+- Shooting          3
+- Tackling          3
+
+Goalie Skills   Base Stat
+- Aerial Ability    3
+- Dribbling         3
+- Pace              4
+- Resilience        3
+- Saving            3
+- Handling          3
+- Tackling          3
+
+Abilities
+- Rabbit
+    +1 to Pace
+    +1 to Resilience
+- Tractor
+    Able to move again on the final phase of the movement action
+    +1 to Resilience
+- Gorilla
+    -1 to Pace
+    +1 to Resilience
+    +1 to Heading
+    +1 to Tackling
+    +1 to Dribbling
+- Paw
+    - Regular
+        +1 to Aerial Ability
+        +1 to Saving
+        +1 to Handling
+    - Black
+        +2 to Aerial Ability
+        +2 to Saving
+        +2 to Handling
+- Gladiator
+    - Regular
+        +1 to Tackling
+    - Black
+        +2 to Tackling
+- Playmaker
+    - Regular
+        Able to pass an extra hex on regular pass
+        +1 to High Pass
+    - Black
+        Able to pass 2 extra hexes on regular pass
+        +1 to High Pass 
+- Archer
+    - Regular
+        +1 to High Pass
+    - Black
+        +2 to High Pass
+- Wizard
+    - Regular
+        Able to perform nutmeg
+        +1 to Dribbling
+    - Black
+        Able to perform nutmeg
+        +2 to Dribbling
+- Ram
+    - Regular
+        +1 to Heading
+    - Black
+        +2 to Heading
+- Cannon
+    - Regular
+        Able to shoot an extra hex from outside the box
+        +1 to Shooting when shooting outside the box
+    - Black
+        Able to shoot 2 extra hex from outside the box
+        +1 to Shooting
+- Viper
+    - Regular
+        +1 to Shooting
+    - Black
+        +2 to Shooting

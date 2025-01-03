@@ -1,0 +1,128 @@
+Movement Phase
+- attacking player moves 4 different players up to pace
+    - anytime during a movement, if the player with the ball comes within 1 hex of an opposition player, opponent attempts to steal the ball (can use wizard ability here)
+    - anytime during a movement, if the player with the ball enters opposition box, may attempt a snapshot
+- defending player moves 5 different players up to pace
+    - if within 1 hex of an opposition player with the ball, can attempt a tackle on the player (can use gladiator ability here)
+    - if within 1 hex of an opposition player with the ball, can attempt a professional foul on the player with ball and drag him down
+        - if last man, red card otherwise yellow card and proceed to set piece
+- attacking player moves 2 different players up to 2 spaces (can use tractor ability here)
+- if attacking player loses the ball anytime during movement phase, the possession changes, current movement phase ends and new attacking player starts a new turn
+- attempt to steal ball
+    - defender roll dice, succeeds if rolls a 6 or 10+(tackling and dice roll)
+    - if defender rolls a 1, FOUL
+- attempt to tackle
+    - duel between attacker and defender, winner gets the ball and if tie, loose ball
+        - if defender wins, can reposition to 1 hex around attacker
+    - if defender rolls a 1, FOUL
+    - if tackle from behind, rolling a 1 or 2, FOUL
+- attempt to nutmeg
+    - if attempting nutmeg, skip steal ball step
+    - need to use 1 movement point
+    - duel between attacker (dribbling) vs defender (tackling) but defender gets +1 tackling
+        - if attacker wins, continues movement and opponent is stunned on their movement phase
+        - if defender wins, defender gets the ball and can reposition 1 hex around attacker
+        - if tie, loose ball
+        - if defender rolls a 1, FOUL
+
+Passing
+- First-time pass
+    - 5 hexes
+    - if within 1 hex of an opposition, can attempt to intercept
+- Standard pass
+    - 10 hexes
+    - if within 1 hex of an opposition, can attempt to intercept
+- Interception
+    - defender rolls a dice and if roll a 6 or 10+(tackling and dice roll) succeeds
+    - the ball goes to the player and the new attacking player starts a new turn
+- Cross
+    - 15 hexes and within 3 hexes of a player on your team
+    - cannot be executed if an opponent is directly in front of you
+    - roll for accuracy, either a 6 or 8+(high pass and dice roll)
+    - if succeeds, each player may choose 1 player to move 1 hex while the ball travels to attempt to get to the ball
+        - if defending player choose to move keeper to challenge the ball, can move 3 spaces but forfits the free 1 hex movement when the ball enters the penalty box
+    - players within 2 hexes of the ball can attempt to head the ball
+        - players 2 hexes away gets -1 Heading
+    - if more than 1 player attempts to head the ball, they duel and winner gets to decide where to head the ball, loose ball on tie
+    - if no one challenges the player, can attempt to control the ball instead
+        - the player rolls and succeeds if rolls a 6 or 9+(dribbling and dice roll)
+- Long Ball
+    - anywhere on the pitch
+    - must not be within 5 hexes of your own teammate and cannot be within 1 hex of an opponent
+    - if from 1 final third to another final third roll for accuracy, either a 6 or 10+(high pass and dice roll)
+    - otherwise roll for accuracy, either a 6 or 9+(high pass and dice roll)
+
+Shooting
+- shot outside the box
+    - 10 hexes
+    - shooter gets -1 shooting
+    - goalie gets 1 movement point to readjust
+- snapshot
+    - shooter gets -1 shooting
+    - opponent gets to move a player up to 2 hexes to attempt a block or the goalie
+- defender within 1 hex of the shot can attempt a block
+    - if defender is 1 hex away, rolls a dice and if roll a 6 or 10+(tackling and dice roll) succeeds
+    - if defender is directly on the path of the shot, roll a 5, 6 or 9+(tackling and dice roll) succeeds
+- duel between goalie(saving) vs attacker(shooting)
+    - if attacker rolls 1, shot is off target regardless of the duel
+    - if goalie wins, check if goalie rolled 6 or 9+(saving and dice roll) then catch/loose ball
+    - if attacker wins, GOAL!!!!
+    - if tie, loose ball and in this case the ball can roll into the net
+
+Heading
+- head on goal
+    - 5 hexes and cannot be blocked
+    - if attacker rolled i.e. won an aerial duel with defender, use the same score otherwise roll a dice
+    - if attacker rolled a 1, header is off target regardless
+    - duel between attacker(heading) vs goalie(saving)
+- head pass
+    - 5 hexes and cannot be blocked/intercepted
+- following a header, all players that attempted the header cannot move
+
+Goalkeepers
+- can move like normal player and can collect loose ball
+    - takes 1 movement point to pick up the ball
+- challenge for header
+    - use aerial ability when competing and if win, hold the ball
+    - if lose, unable to attempt save
+- saving
+    - can save 3 hexes parallel of the goal (-1 on the 3rd hex)
+    - +1 save when shot is directly on the goalie
+    - after saving, if fail to handle the ball, corner kick
+    - else, hold the ball
+- hold the ball
+    - quick throw
+        - nobody repositions
+        - throw the ball 10 hexes away (can use playmaker ability here)
+    - reposition
+        - each player can move up to 6 hexes starting with the attacking player
+        - can continue with a throw, drop the ball or cross
+- dive
+    - can dive 3 hexes in the same direction
+    - to intercept an attempted pass
+        - same rules as intercepting a pass but use saving instead of tackling
+    - on players feet to save
+        - if attacker does not call for snapshot or part of goalie movement phase
+        - duel between goalie(saving) vs attacker(dribbling)
+            - if goalie roll 1, PK
+            - if goalie wins, holds the ball and reposition 1 hex from the ball
+            - if attacker wins, attacker gets to reposition 1 hex and goalie takes the attacker's previous hex
+            - if tie, loose ball
+- gets 1 movement whenever the ball enters the penalty area
+- if goalie is the chosen player to move when opponent calls for snapshot, -1 on 2nd hex and -2 on 3rd hex
+
+Loose Ball
+
+Set Pieces
+- FOUL
+    - check for injury
+        - if roll equal to or higher than Resilience, slight injury
+        - slight injury minus pace by 1
+    - check for booking
+        - if last man foul, straight red card
+        - if roll 5 or 6 yellow card
+    - if no injury, attacking player can choose to play on and continue as is otherwise free kick
+- Free Kick
+- Penalty
+- Throw In
+- Corners
